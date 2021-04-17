@@ -49,16 +49,17 @@
 # a = range(5)
 # print(a)
 
-a = 1
-b = '1'
-c = 1.14
+# a = 1
+# b = '1'
+# c = 1.14
 
-a = float(a)
-b = float(b)
-c = float(c)
-d = a + b + c
+# a = float(a)
+# b = float(b)
+# c = float(c)
+# d = a + b + c
 
-print(round(d,2))
+# print(round(d,2))
+# Bla-bl-bla
 
 
 
