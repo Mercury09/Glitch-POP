@@ -121,17 +121,59 @@
 # 	print("nice")
 
 
-sex = input("What is your sex? girl or boy?: ")
-age = input("How old are you?: ")
-age = float(age)
+# sex = input("What is your sex? girl or boy?: ")
+# age = input("How old are you?: ")
+# age = float(age)
+# sex = sex.lower()
 
-if sex == "girl" and age >= 18:
-	print("Open the door")
-elif sex == "girl" and age <= 18:
-	print("Go away")
-elif sex == "boy" and age >= 21:
-	print("Open the door")
-elif sex == "boy" and age <= 21:
-	print("Go away")
-else:
-	print("You are not human")
+# if sex == "girl" and age >= 18:
+# 	print("Open the door")
+# elif sex == "girl" and age <= 18:
+# 	print("Go away")
+# elif sex == "boy" and age >= 21:
+# 	print("Open the door")
+# elif sex == "boy" and age <= 21:
+# 	print("Go away")
+# else:
+# 	print("You are not human")
+
+
+# d = {
+#   'name' : 'Egor',
+#   'surname': 'EgorUlyKotiBar',
+#   'pas': 123123,
+#   'WW': True,
+#   'array': [12,2,3,24,3],
+#   'dd': {
+#     '2level': 'Egor2',
+#     '2pas': 21312
+#   }
+# }
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+# # ['apple', 'banana', 'cherry', 'orange']
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[4:])
+# # ["kiwi", "melon", "mango"]
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# thislist[2] = 'KKKKK'
+# fruit = thislist[3]
+# print(thislist)
+# print(fruit)
+
+# a = input("Write a = ")
+# b = input("Write b = ")
+# a = int(a)
+# b = int(b)
+
+# a = a + b
+# b = a - b
+# a = a - b
+
+# print("a= " + str(a) + " b= " + str(b) + " ")
