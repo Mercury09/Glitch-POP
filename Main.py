@@ -74,9 +74,17 @@
 # S = 3.14 * int(t)**2
 # print(S)
 
-name = input("Write name")
-a = f"Hello {name}"
-print(a)
+# name = input("Write name")
+# a = f"Hello {name}"
+# print(a)
+
+a = "Hello Banana greps apple Banana banana"
+x = a.replace("Banana", "BANANA")
+f = x.replace("banana", "BANANA")
+print(f)
+
+
+
 
 
 
