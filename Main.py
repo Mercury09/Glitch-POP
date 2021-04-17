@@ -123,7 +123,7 @@
 
 sex = input("What is your sex? girl or boy?: ")
 age = input("How old are you?: ")
-age = int(age)
+age = float(age)
 
 if sex == "girl" and age >= 18:
 	print("Open the door")
