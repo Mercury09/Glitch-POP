@@ -97,27 +97,41 @@
 # else:
 #   print('wrong password!')
 
-a = input("Write first number\n")
-c = input("Choose one of operation: +, -, *, /\n")
-b = input("Write second number\n")
+# a = input("Write first number\n")
+# c = input("Choose one of operation: +, -, *, /\n")
+# b = input("Write second number\n")
 
-a = int(a)
-b = int(b)
+# a = int(a)
+# b = int(b)
 
-if c == "+":
-	w = a + b
-	print(w)
-	print(w)
-elif c == "*":
-	w = a * b
-	print(w)
-elif c == "/":
-	if b == 0:
-		print("Somthing wrong, b != 0")
-	else:
-		w = a / b
-		print(w)
+# if c == "+":
+# 	w = a + b
+# 	print(w)
+# 	print(w)
+# elif c == "*":
+# 	w = a * b
+# 	print(w)
+# elif c == "/":
+# 	if b == 0:
+# 		print("Somthing wrong, b != 0")
+# 	else:
+# 		w = a / b
+# 		print(w)
+# else:
+# 	print("nice")
+
+
+sex = input("What is your sex? girl or boy?: ")
+age = input("How old are you?: ")
+age = int(age)
+
+if sex == "girl" and age >= 18:
+	print("Open the door")
+elif sex == "girl" and age <= 18:
+	print("Go away")
+elif sex == "boy" and age >= 21:
+	print("Open the door")
+elif sex == "boy" and age <= 21:
+	print("Go away")
 else:
-	print("nice")
-
-
+	print("You are not human")
