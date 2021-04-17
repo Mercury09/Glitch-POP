@@ -78,15 +78,46 @@
 # a = f"Hello {name}"
 # print(a)
 
-a = "Hello Banana greps apple Banana banana"
-x = a.replace("Banana", "BANANA")
-f = x.replace("banana", "BANANA")
-print(f)
-t = f.replace("BANANA", "apple")
-print(t)
+# a = "Hello Banana greps apple Banana banana"
+# x = a.replace("Banana", "BANANA")
+# f = x.replace("banana", "BANANA")
+# print(f)
+# t = f.replace("BANANA", "apple")
+# print(t)
 
+# password1 = '2222'#Jack
+# password2 = '3333'#Nick
 
+# user_input = input("Введи пароль")
 
+# if user_input == password1:
+#   print('Hello Jack')
+# elif user_input == password2:
+#   print('hello Nick')
+# else:
+#   print('wrong password!')
 
+a = input("Write first number\n")
+c = input("Choose one of operation: +, -, *, /\n")
+b = input("Write second number\n")
+
+a = int(a)
+b = int(b)
+
+if c == "+":
+	w = a + b
+	print(w)
+	print(w)
+elif c == "*":
+	w = a * b
+	print(w)
+elif c == "/":
+	if b == 0:
+		print("Somthing wrong, b != 0")
+	else:
+		w = a / b
+		print(w)
+else:
+	print("nice")
 
 
