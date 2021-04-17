@@ -1,5 +1,6 @@
  #Hello World
 
+ #-*- coding: utf-8 -*-
 # # print("Salem Alem")
 # print("Glitch-POP")
 # '''
@@ -62,7 +63,16 @@
 # Bla-bl-bla
 # asd ad =asd
 
+# a = input("Write First number\n")
+# b = input("Write Second number\n")
+# c = input("Write Third number\n")
 
+# w = int(a) * int(b) * int(c)
+# print(w)
+
+t = input("write radius\n")
+S = 3.14 * int(t)**2
+print(S)
 
 
 
