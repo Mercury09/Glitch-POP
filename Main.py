@@ -70,9 +70,13 @@
 # w = int(a) * int(b) * int(c)
 # print(w)
 
-t = input("write radius\n")
-S = 3.14 * int(t)**2
-print(S)
+# t = input("write radius\n")
+# S = 3.14 * int(t)**2
+# print(S)
+
+name = input("Write name")
+a = f"Hello {name}"
+print(a)
 
 
 
