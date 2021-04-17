@@ -82,6 +82,8 @@ a = "Hello Banana greps apple Banana banana"
 x = a.replace("Banana", "BANANA")
 f = x.replace("banana", "BANANA")
 print(f)
+t = f.replace("BANANA", "apple")
+print(t)
 
 
 
