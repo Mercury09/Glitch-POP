@@ -177,3 +177,28 @@
 # a = a - b
 
 # print("a= " + str(a) + " b= " + str(b) + " ")
+
+
+# StrList = ["cherry","range","red","panda","cat","toyota","apple"]
+# IntList = [5,7,4,9,2,3,1,8]
+
+# StrList.sort()
+# IntList.sort()
+# print(StrList)
+# print(IntList)
+
+# for i in StrList:
+# 	print(i)
+	
+List = "asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA"
+List2 = List
+List2 = List2.upper()
+List = List.split(' ')
+List2 = List2.split(' ')
+for i in range(0,len(List2)):
+	if List2[i] == "BANANA":
+		List[i] = "BANANA"
+List = ' '.join(List)
+print(List)
+
+
