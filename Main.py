@@ -206,14 +206,24 @@
 # for x in range(1,10):
 # 	if x % 2 == 0:
 # 		x = x
-# 		print(x)
+# # 		print(x)
 
-x1 = [1,2,3,4,5]
-x2 = [1,5,10]
+# x1 = [1,2,3,4,5]
+# x2 = [1,5,10]
 
-for i in range(0,len(x1)):
-	for j in range(0,len(x2)):
-		if x1[i] == x2[j]:
-			a = x1[i]
-			b = x2[j]
-			print(a,b)
+# for i in range(0,len(x1)):
+# 	for j in range(0,len(x2)):
+# 		if x1[i] == x2[j]:
+# 			print(x2[j])
+
+
+
+try:
+	p = input("Write number:")
+	p = int(p)
+	w = 10 * p
+	print(w)
+except Exception as e:
+	print("Please write numbers")
+
+	
