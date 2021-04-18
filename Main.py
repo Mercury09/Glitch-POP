@@ -190,15 +190,30 @@
 # for i in StrList:
 # 	print(i)
 	
-List = "asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA"
-List2 = List
-List2 = List2.upper()
-List = List.split(' ')
-List2 = List2.split(' ')
-for i in range(0,len(List2)):
-	if List2[i] == "BANANA":
-		List[i] = "BANANA"
-List = ' '.join(List)
-print(List)
+# List = "asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA asd awd awd awD awd banana BanAna bananA apple asd asdw ad da BananA"
+# List2 = List
+# List2 = List2.upper()
+# List = List.split(' ')
+# List2 = List2.split(' ')
+# for i in range(0,len(List2)):
+# 	if List2[i] == "BANANA":
+# 		List[i] = "BANANA"
+# List = ' '.join(List)
+# print(List)
 
 
+
+# for x in range(1,10):
+# 	if x % 2 == 0:
+# 		x = x
+# 		print(x)
+
+x1 = [1,2,3,4,5]
+x2 = [1,5,10]
+
+for i in range(0,len(x1)):
+	for j in range(0,len(x2)):
+		if x1[i] == x2[j]:
+			a = x1[i]
+			b = x2[j]
+			print(a,b)
